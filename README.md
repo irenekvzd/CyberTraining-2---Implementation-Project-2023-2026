@@ -3,11 +3,9 @@
 Supervisors:
 
 Dr. Alvis Fong
-
     https://wmich.edu/cs/directory/fong
 
 Dr. Ajay Gupta
-
     https://wmich.edu/cs/directory/gupta
 
 Students:
