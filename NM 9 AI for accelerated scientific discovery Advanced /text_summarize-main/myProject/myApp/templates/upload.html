@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <title>A Summarizer</title>
+    </Head>
+<body>
+    <div>
+        <center>
+        <main className={styles.main}>
+          <h3>Text summarization</h3>
+          <h5> Your text </h5>
+          <form method="post" enctype = "multipart/form-data" action="/upload/">
+            {% csrf_token %}
+            <textarea type="text" name ="text" style="width:300px; height:150px;"  minlength="100" required="True"></textarea>
+            <br></br>
+            <input type="submit" value="Submit">
+            <br></br>
+
+            <div class="row">
+                <div class="column" style="background-color:MediumSeaGreen;">
+                  <h2>Actual Text</h2>
+                  <p>{{real_text}}</p>
+                </div>
+                <div class="column" style="background-color:pink;">
+                  <h2>Summary</h2>
+                  <p>{{summary}}</p>
+                </div>
+                <div class="column" style="background-color:powderblue;">
+                  <h2>Json Output</h2>
+                  <p>{{data}}</p>
+                </div>
+            </div>
+            
+        </form>
+        <form method="post" enctype = "multipart/form-data" action='/'>
+          {% csrf_token %}
+          <br></br>
+          <input type="submit"  value="EXIT" style="background-color:#4CAF50">
+        </form>
+          </main>
+        </center>
+      </div>
+</body>
+</html>
