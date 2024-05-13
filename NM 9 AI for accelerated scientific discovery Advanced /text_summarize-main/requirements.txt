@@ -1,0 +1,8 @@
+beautifulsoup4 @ file:///tmp/build/80754af9/beautifulsoup4_1601924105527/work
+openai==0.18.1
+pdfminer.six==20220506
+pdfminer3==2018.12.3.0
+requests @ file:///tmp/build/80754af9/requests_1592841827918/work
+virtualenv==20.9.0
+virtualenv-clone==0.5.7
+lxml==4.8.0
