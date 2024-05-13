@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <title>A Summarizer</title>
+        <link rel="stylesheet" href="../static/button.css"  />
+    </Head>
+<body>
+    <div>
+        <center>
+        <main className={styles.button}>
+          <h3>Text summarization</h3>
+          <br></br>
+          <form method='post' enctype="multipart/form-data" action='text_summary/'>
+            {% csrf_token %}
+            <button class="button button1 "  type ="submit" name ="text">Text</button>
+          </form>
+          <br></br>
+          <form method="POST"  enctype="multipart/form-data" action='pdf_input/'>
+            {% csrf_token %}
+            <input  type="file" name="file" accept=".pdf" required>
+            <button class="button button2"  style=" width:200px" type ="submit" name ="Article">Upload Files</button>
+          </form>
+          <br></br>
+          <form method='post'enctype="multipart/form-data" action='article_summary/'>
+            {% csrf_token %}
+            <button class="button button3" type ="submit" name ="Article">Web Article</button>
+          </form>
+
+          </main>
+        </center>
+      </div>
+</body>
+</html>
