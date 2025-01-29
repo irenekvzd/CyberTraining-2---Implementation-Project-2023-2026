@@ -12,7 +12,7 @@ Students:
 
 2024-2025
 
-Ahmed Akbari | https://github.com/AhmedAlabkri
+Ahmed Alakbari | https://github.com/AhmedAlabkri
 
 and Irene Kahvazadeh | @irenekvzd
 
