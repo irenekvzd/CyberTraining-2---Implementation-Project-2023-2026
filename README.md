@@ -11,12 +11,19 @@ Dr. Ajay Gupta
 Students:
 
 2024-2025
+
 Ahmed Akbari | https://github.com/AhmedAlabkri
+
 and Irene Kahvazadeh | @irenekvzd
 
 2023-2024
+
 Sathyanarayana Ramesh | @sathya-narine
+
 Aylin Sila Aytemiz | @aylinayt
+
 Shivani Rana | @ShivaniRana1
+
 Eugene Tye | @eugenetye
+
 and Irene Kahvazadeh | @irenekvzd
