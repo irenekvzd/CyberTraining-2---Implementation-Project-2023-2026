@@ -10,6 +10,8 @@ Dr. Ajay Gupta
 
 Students:
 
+Ahmed Akbari |
+
 Sathyanarayana Ramesh | @sathya-narine
 
 Aylin Sila Aytemiz | @aylinayt
